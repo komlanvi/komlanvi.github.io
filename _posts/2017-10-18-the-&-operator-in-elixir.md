@@ -1,10 +1,9 @@
 ---
 layout: post
 title: The & Operator in Elixir
-comments: true
 author: komlanvi
 description: Tutorial on the utility of the Elixir & operator and why and how to use it.
-permalink: /the-&-operator-in-elixir/
+permalink: /the-&-operator-in-elixir
 ---
 
 Writing short helpers functions in Elixir is a natural behavior since Elixir is a functional
