@@ -15,9 +15,10 @@
 # in the templates via {{ site.myvariable }}.
 title: Komlanvi
 email: komlanvi.amegbleame@gmail.com
+description_title: Bienvenue sur mon blog
 description: >- # this means to ignore newlines until "baseurl:"
-  My name is Komlanvi Amegbleame, a Togolese software developer. This is a blog on which
-  I talk about the best features I found on some of the languages I daily use.
+  Mon nom est Amegbleame Komlanvi et je suis Developeur d'application web.
+  Ici je parles de langage de programmation en générale et plus précisement de Elixir.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: doncredas
@@ -32,11 +33,16 @@ plugins:
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+exclude:
+ - Gemfile
+ - Gemfile.lock
+ - node_modules
+ - vendor/bundle/
+ - vendor/cache/
+ - vendor/gems/
+ - vendor/ruby/
+
+livereload: true
+
+# Permalinks
+permalink: /:categories/:title
